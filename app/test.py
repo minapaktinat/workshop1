@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 app = Flask(__name__)
 guesses = ['python', 'java', 'c#', 'c++']
-questions = ['1) is it easy to learn?', '2) does it run on mac?']
+questions = ['1) is it easy to learn!?', '2) does it run on mac!?']
 
 
 @app.route('/')
